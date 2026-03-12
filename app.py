@@ -1,5 +1,5 @@
 import gradio as gr
-from your_module import process_youtube_video, answer_question
+from ytchat import process_youtube_video, answer_question
 
 def chat_interface(video_url_or_id, question):
     """Simple Gradio interface"""
